@@ -1,0 +1,17 @@
+.button-intro-container {
+  margin: 1rem;
+}
+
+.headline {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+#intro {
+  background: url('pattern.png');
+  background-repeat: repeat;
+}
+
+#intro h2 {
+  margin-bottom: 1rem;
+}
