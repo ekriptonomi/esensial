@@ -7,6 +7,6 @@
 </nav>
 {{ range (readDir "./static/ticker-app/static/js") }}
  {{if (findRE ".js$" .Name) }}
- <script src="/ticker-app/static/js/{{ .Name }}"></script>
+ <script async src="/ticker-app/static/js/{{ .Name }}"></script>
  {{ end }}
 {{ end }}
